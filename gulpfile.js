@@ -21,13 +21,15 @@ gulp.task('sass', function() {
 gulp.task('sass:watch', function() {
   gulp.watch('./sass/**/*.scss', ['sass']);
 });
+
+gulp.task('json-sync', function(){
+});
+
 gulp.task('browserSync', function() {
   browserSync({
     server: {
       baseDir: '.'
     }
-  });
-  gulp.task('json-sync', function(){
   });
   
   gulp.watch([
