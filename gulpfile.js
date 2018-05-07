@@ -28,13 +28,13 @@ gulp.task('browserSync', function() {
     }
   });
   gulp.task('json-sync', function(){
-    return true;
   });
   
   gulp.watch([
     './**/*.html',
     './**/*.css'
-   ], ['json-sync',function() {
-    browserSync.reload();
-  }]);
+   //], ['json-sync',function() {
+   // browserSync.reload();
+  //}]);
+   ], ['json-sync']);
 });
