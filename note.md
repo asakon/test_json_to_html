@@ -11,7 +11,7 @@
 ### APIのURLの確認方法
   - 公開 > ウェブアプリケーションとして導入... > 現在のウェブ アプリケーションの URL:
 
-## PUG
+## EJSではなくpugにした 
 - シンプルな記法のpugに挑戦
 
 ## 環境作る
@@ -19,4 +19,5 @@
 npm -v
 gulp -v
 npm init
+npm install gulp --save-dev
 ```
