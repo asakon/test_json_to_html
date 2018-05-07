@@ -25,3 +25,7 @@ npm install gulp --save-dev
 ```
 npm install -D gulp-data jsonfile
 ```
+### リモートリポジトリ急いで作る
+- GitHubに急いで作ってSSHのを（）コピー
+- git remote add origin ホニャ
+- なんとなくmasterをチェックアウトしないとまずそうな流れを感じる
