@@ -23,6 +23,11 @@ gulp.task('sass:watch', function() {
 });
 
 gulp.task('json-sync', function(){
+  return gulp.watch
+  .pipe(data(function(file){
+    dir = './lunch.json';
+    return json = jsonfile.readFileSync(dir);
+  }))
 });
 
 gulp.task('browserSync', function() {
