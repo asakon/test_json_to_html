@@ -29,3 +29,5 @@ npm install -D gulp-data jsonfile
 - GitHubに急いで作ってSSHのを（）コピー
 - git remote add origin ホニャ
 - なんとなくmasterをチェックアウトしないとまずそうな流れを感じる
+- git push -u origin master
+- 元のブランチをチェックアウトしてpush
