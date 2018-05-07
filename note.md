@@ -31,3 +31,11 @@ npm install -D gulp-data jsonfile
 - なんとなくmasterをチェックアウトしないとまずそうな流れを感じる
 - git push -u origin master
 - 元のブランチをチェックアウトしてpush
+
+## 作業再開
+- gulpfile
+  - require
+  - 結局ぜんぶrequire
+  - browserSync OK
+
+
