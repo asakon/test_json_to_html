@@ -5,6 +5,9 @@ var browserSync = require('browser-sync');
 var postcss = require('gulp-postcss');
 var cssdeclsort = require('css-declaration-sorter');
 
+var data = require('gulp-data');
+var jsonfile = require('jsonfile');
+
 gulp.task('sass', function() {
   return gulp.src('./sass/**/*.scss')
     .pipe(sourcemaps.init())
