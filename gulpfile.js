@@ -27,11 +27,14 @@ gulp.task('browserSync', function() {
       baseDir: '.'
     }
   });
+  gulp.task('json-sync', function(){
+    return true;
+  });
   
   gulp.watch([
     './**/*.html',
     './**/*.css'
-   ], function() {
+   ], ['json-sync',function() {
     browserSync.reload();
-  });
+  }]);
 });
