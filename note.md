@@ -21,3 +21,7 @@ gulp -v
 npm init
 npm install gulp --save-dev
 ```
+- 参考：https://tnyk.jp/frontend/269/
+```
+npm install -D gulp-data jsonfile
+```
