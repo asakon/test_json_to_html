@@ -5,6 +5,8 @@
   - https://qiita.com/takatama/items/7aa1097aac453fff1d53
 - 関数を指定してデバッグ実行してもJSONは得られなかった。なぜ？
 - とりあえずAPI、ということで
+- 実行可能APIはステップがいろいろ…
+  - https://qiita.com/soundTricker/items/1bcfc5c9e80d29a7ae4b
 
 ### APIのURLの確認方法
   - 公開 > ウェブアプリケーションとして導入... > 現在のウェブ アプリケーションの URL:
