@@ -158,4 +158,4 @@ $
 ### gulpfileを書こうとしたがよく分からなくなったので参考サイト変更
 - ゴリラ https://blog.mismithportfolio.com/web/20160326pugbegin
 - index.pugを作ってpug index.pugしたらindex.htmlができた！
-
+- onelineではなく整形したものもレンダされた！ pug index.pug --pretty
