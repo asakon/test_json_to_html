@@ -159,3 +159,6 @@ $
 - ゴリラ https://blog.mismithportfolio.com/web/20160326pugbegin
 - index.pugを作ってpug index.pugしたらindex.htmlができた！
 - onelineではなく整形したものもレンダされた！ pug index.pug --pretty
+
+### eachしたい
+- each val in [配列]　そして　=val で展開　で、できた
