@@ -1,5 +1,3 @@
-# note
-
 ## GAS
 - 参考：Google SpreadSheet のデータを JSON 形式で取得する Web API をサクッと作る - Qiita 
   - https://qiita.com/takatama/items/7aa1097aac453fff1d53
